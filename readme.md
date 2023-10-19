@@ -2,7 +2,7 @@
 
     <p>Bem-vindo ao meu portfolio! Este é um projeto pessoal que demonstra minhas habilidades em desenvolvimento web, utilizando HTML, CSS e JavaScript.</p>
 
-    <h2>Visão Geral</h2>
+    ##Visão Geral
 
     <p>Este portfolio foi criado para exibir meu trabalho e projetos de desenvolvimento web. Ele foi construído utilizando uma combinação de tecnologias web, com o objetivo de demonstrar minhas habilidades técnicas e criativas na criação de interfaces e experiências digitais envolventes.</p>
 

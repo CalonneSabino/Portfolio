@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    
-     <title>Personal Portfolio website</title>
+     <title>Portfolio website</title>
    
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
@@ -22,12 +23,12 @@
         </div>
 
         <ul class="menu">
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre mim</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Habilidades</a></li>
-          <li><a href="#">Certificados</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre mim</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#certificates">Certificados</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
         <div class="menu-btn">
           <i class="fa fa-bars"></i>
@@ -47,9 +48,14 @@
           </div>
 
           <div class="text1">Olá, me chamo</div>
-          <div class="text2">Calonne Alcântara</div>
-          <div class="text3">E eu sou <span>Dev iniciante</span></div>
+          <div class="text2">Isabele Alcântara</div>
+          <div class="text3">E eu sou <span class="typing"></span></div>
         </div>
+         <div class="icon">
+         <a href="https://github.com/IsabeleAlcantara" target="_blank"><i class="fa-brands fa-github"></i></a>
+         <a href="https://linkedin.com/in/isabele-de-alcântara"target= "_blank"><i class="fa-brands fa-linkedin"></i></a>
+         <a href="https://wa.me/8596712020"><i class="fa-brands fa-whatsapp" target="_blank"></i></a>
+         </div>
       </div>
     </section>
     <!--about section start-->
@@ -89,7 +95,7 @@
               determinada a contribuir para soluções inovadoras em
               desenvolvimento de software.
             </p>
-            <a href="#">Download CV</a>
+             <a href="https://drive.google.com/file/d/1FGjJT670NkLEF1obLcYOZBooyFUyrouM/view?     usp=share_link" download target="_blank">Download CV</a>
           </div>
         </div>
       </div>
@@ -152,7 +158,7 @@
                Além disso, minha paixão por TI me levou a buscar conhecimento constantemente, seja através de cursos online, livros, ou interagindo com a comunidade de desenvolvedores. Estou sempre disposta a enfrentar novos desafios e a aprender com cada experiência.
                Apesar de minha falta de experiência profissional, estou determinada a continuar minha trajetória de aprendizado e a buscar oportunidades para aplicar minhas habilidades e contribuir para projetos reais na área de TI.
             </p>
-            <a href="#">Mais informações</a>
+            
           </div>
           <div class="column right">
             <div class="bars">
@@ -210,10 +216,76 @@
            </div>
            <div class="card">
             <img src="img/ctc.php.png" alt="#">
-         </div>
-         </div>
+          </div>
+          <div class="card">
+          <img src="img/fundo-do-espaco-cosmo-realista-da-noite-estrelada-e-estrelas-.jpg" alt="#">
+          </div>
+         </div>     
       </div>
      </section>
+
+     <section class="contact" id="contact">
+         <div class="max-width">
+          <h2 class="title">Contato</h2>
+           <div class="contact-content">
+            <div class="column left">
+              <div class="text">Se interessou?</div>
+              <p>Meu compromisso com a aprendizagem contínua e a compreensão das melhores práticas de design e desenvolvimento me capacita a criar soluções que não apenas funcionam, mas que também oferecem experiências atraentes e intuitivas para os usuários finais.<br>
+
+              Estou ansiosa para ganhar experiência e enfrentar desafios mais complexos no campo do desenvolvimento full-stack. Se você estiver procurando alguém dedicado e com fome de conhecimento para colaborar em seu próximo projeto, adoraria a oportunidade de aprender e crescer com você. Vamos juntos transformar suas ideias em realidade digital. Fique à vontade para entrar em contato e explorar como podemos avançar juntos nesta jornada.</p>
+
+              <div class="icons">
+                <div class="row">
+                  <i class="fas fa-user"></i>
+                  <div class="info">
+                    <div class="head">Nome</div>
+                    <div class="sub-title">Isabele Alcântara</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div class="info">
+                    <div class="head">Endereço</div>
+                    <div class="sub-title">Ceará, Fortaleza</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                 <div class="sub-title">isabele.felix98@gmail.com</div>
+               </div>
+            </div>
+            </div>
+           </div>
+            <div class="column right">
+              <div class="text">Fale comigo</div>
+              <form action="#">
+                  <div class="fields">
+                     <div class="field name">
+                        <input type="text" placeholder="Nome" required>
+                     </div>
+                      <div class="field email">
+                       <input type="email" placeholder="Email" required>
+                     </div> 
+                     </div> 
+                      <div class="field">
+                        <input type="text" placeholder="Assunto" required>
+                       </div>
+                      <div class="textarea">
+                        <textarea cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                      </div>
+                      <div class="button">
+                        <button type="submit">Enviar</button>
+                     </div>   
+              </form>
+            </div>
+          </div>
+         </div>
+     </section>
+       <footer> 
+        <span>Desenvolvido por <a href="#">Isabele Alcântara</a> | <span class="far fa-copyright"></span><span> 2023 todos os direitos reservados</span>
+       </footer>
 
     <script src="script.js"></script>
     <script src="particles.js"></script>
