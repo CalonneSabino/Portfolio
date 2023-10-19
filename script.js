@@ -22,20 +22,26 @@
 
    } else {
       elemento.innerHTML = "Bem-<span>vindo!</span>";
-         }
+    }
      
  }); 
 
     $('.menu-btn').click(function(){
       var menuIcon = $('.menu-btn i');
     $('.navbar .menu').toggleClass("active");
-    menuIcon.toggleClass("rotate");
       if (menuIcon.hasClass('fa-bars')) {
         menuIcon.removeClass('fa-bars').addClass('fa-times');
     } else {
         menuIcon.removeClass('fa-times').addClass('fa-bars');
-    }
+    }  
  });
+   $('a').click(function() {
+    var menu = $('.navbar .menu');
+    var menuIcon = $('.menu-btn i');
+    menu.removeClass("active");
+    menuIcon.removeClass('fa-times').addClass('fa-bars');
+});
+  
      
     var typed = new Typed(".typing", {
       strings: ["Desenvolvedora", "Apaixonada por TI", "Gamer", "Mãe de pet 🐁🐈"],
