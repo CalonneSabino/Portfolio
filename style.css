@@ -246,6 +246,7 @@ section {
  .about .title::after {
     content: "Quem sou";
     background: #f6e7fc;
+    white-space: nowrap;
 
  }
 
@@ -322,7 +323,7 @@ section {
 .progress .title::after {
     background: #181717;
     content: "O que forneço";
-
+    white-space: nowrap;
 }
 
 
@@ -377,6 +378,7 @@ section {
 .skills .title::after{
     content: "O que eu sei";
     background-color: #f6e7fc;
+    white-space: nowrap;
 
 }
 
