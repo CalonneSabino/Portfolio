@@ -1,4 +1,4 @@
-  <h1 align="center">Portfolio de Isabele Alcântara</h1>
+  <h1 align="center">Portfolio de Calonne Sabino</h1>
 
     <p>Bem-vindo ao meu portfolio! Este é um projeto pessoal que demonstra minhas habilidades em desenvolvimento web, utilizando HTML, CSS e JavaScript.</p>
 
