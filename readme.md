@@ -24,8 +24,8 @@
     <h2>Contato</h2>
 
     <ul>
-        <li>E-mail: isabele.felix98@gmail.com</li>
-        <li>LinkedIn: <a href="www.linkedin.com/in/isabele-de-alcântara">www.linkedin.com/in/isabele-de-alcântara</a></li>
+        <li>E-mail: calonne.sabino@gmail.com</li>
+        <li>LinkedIn: <a href="www.linkedin.com/in/calonnesabino</a></li>
     </ul>
 
     <p>Obrigada por visitar meu portfolio! Estou ansiosa para compartilhar mais projetos emocionantes em breve.</p>
