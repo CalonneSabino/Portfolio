@@ -44,14 +44,14 @@
   
      
     var typed = new Typed(".typing", {
-      strings: ["Desenvolvedora", "Apaixonada por TI", "Gamer", "Mãe de pet 🐁🐈"],
+      strings: ["Desenvolvedora", "Apaixonada por programação", "Gamer", "Mãe de pet 🐁🐈"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true
     });
 
      
-       //owl carousel script
+       
       
    $('.carousel').owlCarousel({
       margin: 20,

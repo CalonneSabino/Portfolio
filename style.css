@@ -462,27 +462,27 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-    width: 70%;
+    width: 90%;
 
 }
 
 .skills-content .right .css::before {
-    width: 50%;
+    width: 80%;
 
 }
 
 .skills-content .right .javascript::before {
+    width: 50%;
+
+}
+
+.skills-content .right .ts::before {
     width: 20%;
 
 }
 
-.skills-content .right .php::before {
-    width: 10%;
-
-}
-
 .skills-content .right .react::before {
-    width: 10%;
+    width: 40%;
 
 }
 
